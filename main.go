@@ -1,9 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"main/mypackage"
+)
 
 func main() {
-	fmt.Println("Hello,")
-	fmt.Print()
-	fmt.Println("Go!")
+	mypackage.Variables()
 }
